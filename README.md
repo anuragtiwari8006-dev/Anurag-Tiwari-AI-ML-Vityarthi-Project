@@ -44,33 +44,35 @@ cd Anurag-Tiwari-AI-ML-Vityarthi-Project
 ```
 
 2. Install Dependencies
-
+```bash
 pip install -r requirements.txt
  Running the System
-
+```
 The application is entirely CLI-based and requires no graphical interface.
 
  Case 1: Basic Route Calculation
 
 Finds the shortest route between two points without obstacles:
-
+```bash
 python tactical_route.py --start "Clock Tower" --end "Peak"
-
+```
 Output Example:
+```bash
 
 [>] Computing optimal route from 'Clock Tower' to 'Peak'...
 
 [+] ROUTE FOUND
     Path: Clock Tower -> Peak
     Total Distance: 150 units
+```
  Case 2: Route with Dynamic Constraints
 
 Simulates obstacles such as enemy presence and restricted zones:
-
+```bash
 python tactical_route.py --start "Rim Nam Village" --end "Peak" --enemy "Clock Tower" --red_zone "Factory"
-
+```
 Output Example:
-
+```bash
 [!] Avoiding restricted area: Factory
 [!] Enemy detected at: Clock Tower
 
@@ -79,7 +81,7 @@ Output Example:
 [+] ROUTE FOUND
     Path: Rim Nam Village -> Hangar -> Katulistiwa -> Bimasakti Strip -> Peak
     Total Distance: 825 units
-    
+    ```
  Project Structure
 tactical_route.py — Handles user interaction and Prolog communication
 map_kb.pl — Logical knowledge base and search rules
