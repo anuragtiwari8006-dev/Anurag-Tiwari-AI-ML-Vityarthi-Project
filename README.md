@@ -39,8 +39,8 @@ Setup Steps:
 
 1. Clone the Repository
 
-git clone https://github.com/kaushalshivang-ai/Project-Bermuda
-cd Project-Bermuda
+git clone https://github.com/anuragtiwari8006-dev/Anurag-Tiwari-AI-ML-Vityarthi-Project/tree/main
+cd Anurag-Tiwari-AI-ML-Vityarthi-Project
 
 2. Install Dependencies
 
