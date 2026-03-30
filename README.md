@@ -78,6 +78,7 @@ Output Example:
 [+] ROUTE FOUND
     Path: Rim Nam Village -> Hangar -> Katulistiwa -> Bimasakti Strip -> Peak
     Total Distance: 825 units
+    
  Project Structure
 tactical_route.py — Handles user interaction and Prolog communication
 map_kb.pl — Logical knowledge base and search rules
