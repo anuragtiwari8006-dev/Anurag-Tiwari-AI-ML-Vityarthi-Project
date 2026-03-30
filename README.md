@@ -38,9 +38,10 @@ Ensure that the option "Add swipl to system PATH" is enabled during installation
 Setup Steps:
 
 1. Clone the Repository
-
+```bash
 git clone https://github.com/anuragtiwari8006-dev/Anurag-Tiwari-AI-ML-Vityarthi-Project/tree/main
 cd Anurag-Tiwari-AI-ML-Vityarthi-Project
+```
 
 2. Install Dependencies
 
